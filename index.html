@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVANTI - Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Promotional banner -->
+    <div class="promo-banner">
+        Ganhe R$10,00 de desconto no seu primeiro pedido. Utilize o cupom DESCONTO10
+    </div>
+
+    <!-- Header section -->
+    <header class="top-header">
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">AVANTI</div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Digite aqui o que você procura">
+        </div>
+        <div class="user-actions">
+            <a href="#" class="user-link">
+                <i class="far fa-user"></i>
+                <span>Olá, <br>Nome cliente!</span>
+            </a>
+            <a href="#" class="cart-link">
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">2</span>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <!-- Add mobile search bar here -->
+    <div class="mobile-search-bar">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Digite aqui o que você procura">
+        </div>
+    </div>
+    <!-- Main navigation -->
+    <nav class="main-nav" id="mainNav">
+        <ul>
+            <li class="has-dropdown">
+                <a href="#" class="todas-categorias"><i class="fas fa-bars"></i> Todas as Categorias</a>
+                <!-- Dropdown menu for Todas as Categorias -->
+                <div class="dropdown-menu category-dropdown">
+                    <div class="dropdown-columns">
+                        <div class="dropdown-column">
+                            <h4>Departamento</h4>
+                            <ul>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                                <li><a href="#">Departamento</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-banner">
+                            <img src="assets/img/features-img.png" alt="Caneca Avanti">
+                            <div class="banner-content-dropdown">
+                                <h3>Confira os Produtos</h3>
+                                <p>Que acabaram De chegar</p>
+                                <a href="#" class="banner-dropdown-btn">VER TODOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="has-dropdown">
+                <a href="#" class="department-toggle">Departamento</a>
+                <!-- Dropdown menu for Departamento -->
+                <div class="dropdown-menu department-dropdown">
+                    <div class="dropdown-columns department-columns">
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-banner">
+                            <img src="assets/img/features-img.png" alt="Caneca Avanti">
+                            <div class="banner-content-dropdown">
+                                <h3>Confira os Produtos</h3>
+                                <p>Que acabaram De chegar</p>
+                                <a href="#" class="banner-dropdown-btn">VER TODOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="has-dropdown">
+                <a href="#" class="department-toggle">Departamento</a>
+                <!-- Dropdown menu structure (same as above) -->
+                <div class="dropdown-menu department-dropdown">
+                    <!-- Same dropdown structure as above -->
+                    <div class="dropdown-columns department-columns">
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-column">
+                            <h4>Categoria</h4>
+                            <ul>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                                <li><a href="#">Categoria</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-banner">
+                            <img src="assets/img/features-img.png" alt="Caneca Avanti">
+                            <div class="banner-content-dropdown">
+                                <h3>Confira os Produtos</h3>
+                                <p>Que acabaram De chegar</p>
+                                <a href="#" class="banner-dropdown-btn">VER TODOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Repeat the <li class="has-dropdown"> structure for each remaining department -->
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Departamento</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero banner section -->
+    <section class="hero-banner">
+        <div class="banner-content">
+            <div class="banner-image">
+                <img src="assets/img/banner-roupa.png" alt="Folded clothes and chair">
+            </div>
+            <div class="banner-text">
+                <h1><span>SUPER</span>SALE</h1>
+                <p><strong>ITENS SELECIONADOS COM ATÉ</strong></p>
+                <div class="discount">50%<span>OFF</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products section - First row -->
+    <section class="products-section">
+        <div class="section-header">
+            <h2>Lançamentos</h2>
+            <a href="#" class="see-more">Ver mais</a>
+        </div>
+        <div class="product-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Product showcase section -->
+    <section class="product-showcase">
+        <div class="product-image">
+            <img src="assets/img/mug.png" alt="Caneca Avanti">
+        </div>
+        <div class="product-description">
+            <h2>LOREM IPSUM</h2>
+            <p>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+            <p>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features-section"> 
+        <div class="features-container">
+            <div class="features-text">
+                <h2>LOREM IPSUM</h2>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="assets/img/map-pin.png" alt="Localização">
+                    </div>
+                    <div class="feature-description">
+                        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="assets/img/map-pin.png" alt="Localização">
+                    </div>
+                    <div class="feature-description">
+                        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="assets/img/map-pin.png" alt="Localização">
+                    </div>
+                    <div class="feature-description">
+                        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-image">
+                <img src="assets/img/features-img.png" alt="Caneca Avanti em uso">
+            </div>
+        </div>
+    </section>
+
+    <!-- Second product showcase section -->
+    <section class="product-showcase reverse">
+        <div class="product-image">
+            <img src="assets/img/mug.png" alt="Caneca Avanti">
+        </div>
+        <div class="product-description">
+            <h2>LOREM IPSUM</h2>
+            <p>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+            <p>Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+        </div>
+    </section>
+
+    <!-- Products section - Second row -->
+    <section class="products-section">
+        <div class="section-header">
+            <h2>Lançamentos</h2>
+            <a href="#" class="see-more">Ver mais</a>
+        </div>
+        <div class="product-grid">
+            <div class="product-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-badge new">Novo</div>
+                <div class="product-image">
+                    <img src="assets/img/camisa.png" alt="Camiseta branca">
+                </div>
+                <div class="product-info">
+                    <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                    <div class="product-price">
+                        <div class="price-column">
+                          <span class="original-price">R$ 100,00</span>
+                          <span class="current-price">R$79,90</span>
+                        </div>
+                        <span class="product-badge discount price-discount">10% off</span>
+                    </div>
+                    <div class="product-installments">Ou em até 10x de R$ 7,90</div>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Contact banner -->
+    <section class="contact-section">
+        <div class="contact-message">
+            <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+        </div>
+    </section>
+
+    <!-- Newsletter section -->
+    <section class="newsletter-section">
+        <h3>Cadastre-se na nossa <span>newsletter</span> </h3>
+        <form class="newsletter-form">
+            <input type="text" placeholder="Digite seu nome">
+            <input type="email" placeholder="Digite seu e-mail">
+            <div class="form-checkbox">
+                <input type="checkbox" id="privacy-policy">
+                <label for="privacy-policy">Estou de acordo com a Política de Privacidade</label>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="assets/img/Grupo 21089.png" alt="">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>
+                        Institucional <span class="toggle-text">+</span>
+                    </h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                        <li><a href="#">Privacidade e Segurança</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>
+                        Central de ajuda <span class="toggle-text">+</span>
+                    </h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Frete e Entrega</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Formas de Pagamento</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>
+                        Atendimento <span class="toggle-text">+</span>
+                    </h4>
+                    <ul class="footer-list">
+                        <li>Telefone: (00) 1234-5678</li>
+                        <li>E-mail: exemplo@exemplo.com.br</li>
+                        <li>Horário de atendimento:</li>
+                        <li>Segunda a Sábado: 07h00 às 23h00</li>
+                        <li>Domingos e Feriados: 07h00 às 21h00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="payment-methods">
+            <img src="assets/img/logo/logo-amex.png" alt="Amex">
+            <img src="assets/img/logo/logo-mastercard.png" alt="Mastercard">
+            <img src="assets/img/logo/logo-visa.png" alt="Visa">
+            <img src="assets/img/logo/logo-hipercard.png" alt="Hipercard">
+            <img src="assets/img/logo/logo-cielo.png" alt="Cielo">
+            <img src="assets/img/logo/logo-diners-club.png" alt="Diners Club">
+            <img src="assets/img/logo/logo-paypal.png" alt="PayPal">
+            <img src="assets/img/logo/logo-pix.png" alt="Pix">
+            <img src="assets/img/logo/logo-boleto.png" alt="Boleto">
+        </div>
+        <div class="footer-bottom">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="footer-certifications">
+                <img src="assets/img/logo/logo-ssl.png" alt="Certificado ssl">
+                <img src="assets/img/logo/logo-certified.png" alt="Certificado de Segurança">
+                <img src="assets/img/logo/logo-small-avanti.png" alt="Logo Avanti">
+                <img src="assets/img/logo/logo-vetex.png" alt="Logo Vetex">
+            </div>
+        </div>
+    </footer>
+    <script src="js/script-footer.js"></script>
+    <script src="js/script-nav.js"></script>
+    <script src="js/script-responsive-products.js"></script>
+    <script src="js/script-dropdown.js"></script>
+    <script src="js/script-search.js"></script>
+</body>
+</html>
